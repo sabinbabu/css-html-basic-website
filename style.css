@@ -24,6 +24,11 @@ a:hover {
 * {
   margin: 0;
 }
+
+h3 {
+  padding: 1rem;
+  font-size: 2rem;
+}
 /* header image */
 
 .background-img-container {
@@ -69,6 +74,12 @@ header {
   color: black;
 }
 
+.content-card {
+  margin: 2rem;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
 .main-topic {
   padding: 1rem;
   justify-content: space-around;
@@ -77,8 +88,27 @@ header {
   line-height: 2rem;
 }
 
-.self-awareness {
-  background-color: rgb(130, 130, 244);
+.self-awareness,
+.growth-mindset {
+  background-color: blue;
+}
+
+.manage-emotion,
+.stay-in-present {
+  background-color: green;
+}
+.clear-goals,
+.seek-support {
+  background-color: yellow;
+  color: black;
+}
+.healthy-habits,
+.balance-mind-and-body {
+  background-color: red;
+}
+.emotional-intelligence,
+.just-do-it {
+  background-color: purple;
 }
 
 /* about us */
