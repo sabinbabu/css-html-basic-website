@@ -29,6 +29,10 @@ h3 {
   padding: 1rem;
   font-size: 2rem;
 }
+h2 {
+  text-align: center;
+  padding: 1rem;
+}
 /* header image */
 
 .background-img-container {
@@ -72,6 +76,7 @@ header {
 /* main */
 .main {
   color: black;
+  font-family: Indie Flower;
 }
 
 .content-card {
@@ -86,6 +91,14 @@ header {
   color: white;
   font-weight: bolder;
   line-height: 2rem;
+  font-size: large;
+  letter-spacing: 0.2rem;
+}
+
+@media screen and (min-width: 1000px) {
+  .main-topic ul {
+    flex: 2;
+  }
 }
 
 .self-awareness,
@@ -111,21 +124,36 @@ header {
   background-color: purple;
 }
 
+.section-img-container {
+  height: 100%;
+  width: 30%;
+  @media screen and (min-width: 1000px) {
+    flex: 1;
+  }
+  @media screen and (max-width: 900px) {
+    display: none;
+  }
+}
+
+.section-img-container img {
+  height: 100%;
+  width: 100%;
+}
+
 /* about us */
 .about-us {
   background-color: yellow;
-  height: 40dvh;
+  font-family: Indie Flower;
 }
 
 .about-us p {
   line-height: 2rem;
   padding: 1rem;
   font-size: large;
+  letter-spacing: 0.2rem;
 }
 
 /* contact us */
-.contact-us {
-}
 .contact-container {
   justify-content: center;
 }
